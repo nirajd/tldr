@@ -35,3 +35,7 @@
 - Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
 `ssh -A {{username}}@{{remote_host}}`
+
+- Escape sequences: terminate unresponsive session (needs to be followed by a newline)
+
+` ~.`
